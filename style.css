@@ -1,0 +1,395 @@
+html {
+    background: #000000;
+}
+
+header {
+  background: #FFFFFF;
+  width: 1100px;
+  height: 95px;
+}
+
+body {
+    width: 1100px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF; 
+}
+
+h1 {
+    font-size: 40px;
+    background-color: #FFFFFF;
+    color: #007D7B;
+    text-transform: uppercase;
+    width: 400px;
+    margin: 0px 0px 25px 10px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+nav {
+    float: right;
+}
+
+#navigation {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 40px 40px 20px 40px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #007D7B
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    width: 80px;
+    height: 40px;
+    background: #007D7B;
+    z-index: 1;
+    text-align: center;
+    padding: 5px;
+}
+
+[href="#top"]:hover {
+    color: #007D7B;
+    background: #FFFFFF;
+}
+
+main {
+    clear: both;
+}
+
+.box {
+    background: #FFFFFF;
+    color: #000000;
+    margin: 0px auto;
+    
+}
+
+.box h2, .box p {
+    color: #000000;
+   margin: 5px 0px 0px 5px;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+
+#gallery {
+    display:grid;
+    grid-template-columns: 360px 360px 360px;
+}
+
+figure {
+    margin: 10px 0px 0px 10px;
+}
+figcaption {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#chile {
+    top: -35px;
+    color: #FFFFFF;
+}
+#guatemala {
+    top: -225px;
+    color: #FFFFFF;
+}
+#hawaii {
+    top: -35px;
+    color: #FFFFFF;
+}
+#iran {
+     top: -510px;
+    color: #000000;
+}
+#ireland {
+     top: -510px;
+    color: #000000;
+}
+.blkTxt{
+    top: -225px;
+    color: #000000;
+}
+#italy {
+    top: -35px;
+    color: #000000;
+}
+#moabDesert {
+     top: -35px;
+    color: #FFFFFF;
+}
+#wyoming {
+    top: -225px;
+    color: #FFFFFF;
+}
+
+
+
+#contact {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+
+#contact h2, #contact h2 + p {
+    text-align: center;
+    margin: 10px auto auto 5px;
+}
+
+#contact form {
+    text-align: left;
+}
+
+#contact label, [placeholder] {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#contact input {
+    width: 850px;
+    height: 30px;
+}
+[placeholder] {
+    font-weight: 900;
+}
+
+::placeholder {
+    color: #007D7B;
+    opacity: 1;
+}
+::-ms-input-placeholder  {
+    color: #007D7B;
+}
+button {
+    background: #007D7B;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    width: 420px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+button:active {
+    color: #007D7B;
+    background: #FFFFFF;
+}
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:880px) {
+    
+    
+    header{
+        width: 675px;
+    }
+    
+    
+    img{
+        width: 320px;
+        height: auto;
+    }
+    
+   
+    
+    p {
+    font-size: 15px;
+    }
+    
+   #gallery {
+    display:grid;
+    grid-template-columns: 335px 335px;
+    }
+    
+    body{
+        width: 675px;
+        margin: 0 auto;
+    }
+    
+    #chile {
+    top: -35px;
+    color: #FFFFFF;
+    }
+    
+    #guatemala {
+    top: -205px;
+    color: #FFFFFF;
+    }
+    
+    #hawaii {
+    top: -35px;
+    color: #FFFFFF;
+    }
+    
+    #iran {
+     top: -470px;
+    color: #000000;
+    }
+    
+    #ireland {
+     top: -470px;
+    color: #000000;
+    }
+    
+    .blkTxt{
+    top: -205px;
+    color: #000000;
+    }
+    
+    #italy {
+    top: -35px;
+    color: #000000;
+    }
+    
+    #moabDesert {
+     top: -35px;
+    color: #FFFFFF;
+        
+    }
+    #wyoming {
+    top: -205px;
+    color: #FFFFFF;
+}
+
+    #contact{
+        width: 675px;
+    }
+    
+    #contact input{
+        width: 675px;
+    }
+    
+    
+}
+
+@media screen and (max-width:485px) {
+    
+    header{
+        width: 360px;
+    }
+    
+    body{
+        width: 360px;
+        margin: 0 auto;
+    }
+    
+    h1{
+        margin: 0px auto;
+        text-align: center;
+    }
+    
+    nav li{
+        display:inline-block;
+        width: 20px;
+        height: 20px;
+        padding: 1px;
+        margin: 35px;
+    }
+    
+    nav a{
+        font-weight:400px ;
+        font-size: 18px ;
+    }
+    
+    img{
+        width: 340px;
+        height: auto;
+    }
+    #gallery {
+    display:grid;
+    grid-template-columns: 375px;
+    }
+    
+    figure {
+    margin: 25px 0px 0px 25px;
+    }
+    
+    #contact{
+        width: 360px;
+    }
+    
+    #contact input{
+        width: 360px;
+    }
+    
+    #chile {
+    top: -35px;
+    color: #FFFFFF;
+    }
+    
+    #guatemala {
+    top: -220px;
+    color: #FFFFFF;
+    }
+    
+    #hawaii {
+    top: -35px;
+    color: #FFFFFF;
+    }
+    
+    #iran {
+     top: -505px;
+    color: #000000;
+    }
+    
+    #ireland {
+     top: -505px;
+    color: #000000;
+    }
+    
+    .blkTxt{
+    top: -220px;
+    color: #000000;
+    }
+    
+    #italy {
+    top: -35px;
+    color: #000000;
+    }
+    
+    #moabDesert {
+     top: -35px;
+    color: #FFFFFF;
+        
+    }
+    #wyoming {
+    top: -220px;
+    color: #FFFFFF;
+}
+    
+}
