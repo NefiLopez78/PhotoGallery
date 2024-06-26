@@ -310,13 +310,14 @@ footer {
     h1{
         margin: 0px auto;
         text-align: center;
+        font-size: 35px;
     }
     
     nav li{
         display:inline-block;
-        width: 20px;
-        height: 10px;
-        margin: 25px;
+        width: 30px;
+        height: 30px;
+        margin: 30px;
     }
     
     nav a{
@@ -325,7 +326,7 @@ footer {
     }
     
     img{
-        width: 285px;
+        width: 295px;
         height: auto;
     }
     #gallery {
