@@ -310,7 +310,7 @@ footer {
     h1{
         margin: 0px auto;
         text-align: center;
-        font-size: 35px;
+        font-size: 20px;
     }
     
     nav li{
@@ -326,7 +326,7 @@ footer {
     }
     
     img{
-        width: 295px;
+        width: 310px;
         height: auto;
     }
     #gallery {
