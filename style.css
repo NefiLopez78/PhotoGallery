@@ -17,18 +17,18 @@ body {
 
 h1 {
     font-size: 40px;
+    text-transform: uppercase;
     background-color: #FFFFFF;
     color: #007D7B;
-    text-transform: uppercase;
     width: 400px;
     margin: 0px 0px 25px 10px;
 }
 
 h2 {
     font-size: 32px;
-    color: #FFFFFF;
     text-transform: uppercase;
     text-align: center;
+    color: #FFFFFF;
 }
 
 p {
@@ -54,8 +54,8 @@ nav a {
     color: #FFFFFF;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 600;
     font-size: 20px;
+    font-weight: 600;
 }
 
 nav a:hover {
@@ -64,14 +64,14 @@ nav a:hover {
 
 [href="#top"] {
     position:fixed;
+    padding: 5px;
     bottom:0px;
     right:0px;
     width: 80px;
     height: 40px;
     background: #007D7B;
-    z-index: 1;
     text-align: center;
-    padding: 5px;
+    z-index: 1;
 }
 
 [href="#top"]:hover {
@@ -150,7 +150,6 @@ figcaption {
     color: #FFFFFF;
 }
 
-
 #contact {
     display: block;
     margin-left: auto;
@@ -184,9 +183,11 @@ figcaption {
     color: #007D7B;
     opacity: 1;
 }
+
 ::-ms-input-placeholder  {
     color: #007D7B;
 }
+
 button {
     background: #007D7B;
     border-radius: 25px;
@@ -218,13 +219,10 @@ footer {
         width: 675px;
     }
     
-    
     img{
         width: 320px;
         height: auto;
     }
-    
-   
     
     p {
     font-size: 15px;
