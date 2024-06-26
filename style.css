@@ -189,7 +189,7 @@ figcaption {
 }
 button {
     background: #007D7B;
-    border-radius: 10px;
+    border-radius: 25px;
     text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -297,7 +297,7 @@ footer {
 }
 
 @media screen and (max-width:485px) {
-    
+
     header{
         width: 340px;
     }
@@ -308,16 +308,16 @@ footer {
     }
     
     h1{
-        margin: 0px auto;
+        font-size: 33px;
         text-align: center;
-        font-size: 20px;
+        width: 330px;
+        margin: 0px 10px 50px 10px;
     }
     
     nav li{
         display:inline-block;
-        width: 30px;
-        height: 30px;
-        margin: 30px;
+        width: 50px;
+        margin: 40px 25px 0px 25px;
     }
     
     nav a{
@@ -326,7 +326,7 @@ footer {
     }
     
     img{
-        width: 310px;
+        width: 305px;
         height: auto;
     }
     #gallery {
@@ -352,7 +352,7 @@ footer {
     }
     
     #guatemala {
-    top: -220px;
+    top: -190px;
     color: #FFFFFF;
     }
     
@@ -362,17 +362,17 @@ footer {
     }
     
     #iran {
-     top: -495px;
+     top: -440px;
     color: #000000;
     }
     
     #ireland {
-     top: -495px;
+     top: -440px;
     color: #000000;
     }
     
     .blkTxt{
-    top: -220px;
+    top: -190px;
     color: #000000;
     }
     
@@ -387,13 +387,12 @@ footer {
         
     }
     #wyoming {
-    top: -220px;
+    top: -190px;
     color: #FFFFFF;
     }
 
     button{
-        width: 320px;
+        width: 230px;
     }
-
     
 }
