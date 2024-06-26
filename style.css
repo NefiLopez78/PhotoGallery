@@ -310,7 +310,6 @@ footer {
     h1{
         margin: 0px auto;
         text-align: center;
-        width: 340px;
     }
     
     nav li{
@@ -326,12 +325,12 @@ footer {
     }
     
     img{
-        width: 300px;
+        width: 285px;
         height: auto;
     }
     #gallery {
     display:grid;
-    grid-template-columns: 355px;
+    grid-template-columns: 335px;
     }
     
     figure {
@@ -389,6 +388,11 @@ footer {
     #wyoming {
     top: -220px;
     color: #FFFFFF;
-}
+    }
+
+    button{
+        width: 320px;
+    }
+
     
 }
