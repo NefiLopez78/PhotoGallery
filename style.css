@@ -299,24 +299,24 @@ footer {
 @media screen and (max-width:485px) {
     
     header{
-        width: 360px;
+        width: 340px;
     }
     
     body{
-        width: 360px;
+        width: 340px;
         margin: 0 auto;
     }
     
     h1{
         margin: 0px auto;
         text-align: center;
+        font-size: 16px;
     }
     
     nav li{
         display:inline-block;
-        width: 20px;
-        height: 20px;
-        padding: 1px;
+        width: 10px;
+        height: 10px;
         margin: 35px;
     }
     
@@ -326,7 +326,7 @@ footer {
     }
     
     img{
-        width: 340px;
+        width: 310px;
         height: auto;
     }
     #gallery {
@@ -335,15 +335,15 @@ footer {
     }
     
     figure {
-    margin: 25px 0px 0px 25px;
+    margin: 20px 0px 0px 20px;
     }
     
     #contact{
-        width: 360px;
+        width: 340px;
     }
     
     #contact input{
-        width: 360px;
+        width: 340px;
     }
     
     #chile {
@@ -362,12 +362,12 @@ footer {
     }
     
     #iran {
-     top: -505px;
+     top: -495px;
     color: #000000;
     }
     
     #ireland {
-     top: -505px;
+     top: -495px;
     color: #000000;
     }
     
